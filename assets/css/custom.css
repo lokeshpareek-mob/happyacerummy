@@ -1,0 +1,136 @@
+.download_btn {
+    background: linear-gradient(to bottom, #feeb00, #ffae00);
+    border: 2px solid #fe901c;
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    padding: 5px 12px;
+    border-radius: 6px;
+    min-width: 145px;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .single-game {
+	height: 270px;
+	display: block;
+	line-height: 300px;
+	text-align: center;
+	border: 1px solid rgba(255, 255, 255, 0.12);
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 10px 15px 0px rgb(0 0 0 / 40%);
+	box-shadow: 0px 10px 15px 0px rgb(0 0 0 / 40%);
+	position: relative;
+	-webkit-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+	background: var(--md-sys-color-black);
+}
+
+  .game-slider .item .single-game {
+    margin: 15px 15px 40px;
+  }
+  
+.my {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.625;
+    position: relative;
+    margin-top: 0 !important;
+  }
+  .mybtn2 {
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 600;
+      height: 50px;
+      line-height: 50px;
+      width: 190px;
+      display: inline-block;
+      color: #fff;
+      border: 0px;
+      border-radius: 50px;
+      cursor: pointer;
+      -webkit-transition: all 0.3s ease-in;
+      -o-transition: all 0.3s ease-in;
+      transition: all 0.3s ease-in;
+      background-image: linear-gradient(#0d4896, #037c1b);
+  }
+  .single-game .mybtn2 {
+      position: absolute;
+      display: block;
+      height: 50px;
+      bottom: -25px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+      box-shadow: 0px 0px 14px 7px rgba(0, 0, 0, 0.4);
+  }
+  .single-game .mybtn2 {
+    position: absolute;
+    display: block;
+    height: 50px;
+    bottom: -24px;
+    background: linear-gradient(#0d4896, #037c1b);
+  }
+  
+.my {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.625;
+    position: relative;
+    margin-top: 0 !important;
+    font-size: 14px;
+  }
+  .mybtn2 {
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 600;
+      height: 50px;
+      line-height: 50px;
+      width: 190px;
+      display: inline-block;
+      color: #fff;
+      border: 0px;
+      border-radius: 50px;
+      cursor: pointer;
+      -webkit-transition: all 0.3s ease-in;
+      -o-transition: all 0.3s ease-in;
+      transition: all 0.3s ease-in;
+      background-image: linear-gradient(#0d4896, #037c1b);
+  }
+  .single-game .mybtn2 {
+      position: absolute;
+      display: block;
+      height: 50px;
+      bottom: -25px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+      box-shadow: 0px 0px 14px 7px rgba(0, 0, 0, 0.4);
+  }
+  .single-game .mybtn2 {
+    position: absolute;
+    display: block;
+    height: 50px;
+    bottom: -24px;
+    background: linear-gradient(to bottom, #feeb00, #ffae00) !important;
+  border: 2px solid #fe901c !important;
+  color: #000;
+  }
+  .game-slider .owl-nav, .rewarding-block .owl-nav {
+    display: none;
+  }
+  .game-slider .owl-dots, .rewarding-block .owl-dots {
+    text-align: center;
+  }
+
+  @media (max-width: 767px) {
+    .header-hb {
+        display: none;
+    }
+  }
