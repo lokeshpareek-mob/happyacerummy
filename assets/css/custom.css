@@ -159,6 +159,17 @@
     bottom: -10px;
     font-size: 24px !important;
   }
+  .header-main {
+    padding-top: 0;
+    padding-bottom: 0;
+    overflow: hidden;
+  }
+
+  @media (min-width: 767px) {
+    .header-hb {
+      top: -16px;
+    }
+  }
 
   @media (max-width: 767px) {
     .wp-container-core-group-is-layout-8.wp-container-core-group-is-layout-8, .wp-container-core-group-is-layout-13.wp-container-core-group-is-layout-13, .wp-container-core-group-is-layout-18.wp-container-core-group-is-layout-18 {
