@@ -77,13 +77,15 @@
   }
   
 .my {
-    font-size: 16px;
-    color: #fff;
-    line-height: 1.625;
-    position: relative;
-    margin-top: 0 !important;
-    font-size: 14px;
-  }
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.625;
+  position: relative;
+  margin-top: 0 !important;
+  font-size: 17px;
+  color: var(--wp--preset--color--body-text);
+  letter-spacing: 1px;
+}
   .mybtn2 {
       font-size: 16px;
       text-transform: uppercase;
@@ -128,9 +130,69 @@
   .game-slider .owl-dots, .rewarding-block .owl-dots {
     text-align: center;
   }
+  body .has-secondary-color {
+    color: #fff !important;
+  }
+  .header-main {
+    margin-top: 0;
+    background: linear-gradient(#363636, #0b0b0b);
+    padding: 15px 15px;
+  }
+
+  @font-face {
+    font-family: 'Quacker';
+    src: url('../webFont/Quacker.ttf');
+  }
+  .header-hb {
+    font-family: 'Quacker';
+    font-size: 75px;
+    position: relative;
+  }
+  .header-hb span {
+    font-family: "Oswald", sans-serif;
+  }
+  .header-hb span {
+    font-family: "Oswald", sans-serif;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+    font-size: 24px !important;
+  }
 
   @media (max-width: 767px) {
-    .header-hb {
-        display: none;
+    .wp-container-core-group-is-layout-8.wp-container-core-group-is-layout-8, .wp-container-core-group-is-layout-13.wp-container-core-group-is-layout-13, .wp-container-core-group-is-layout-18.wp-container-core-group-is-layout-18 {
+      flex-wrap: wrap !important;
+      justify-content: center;
     }
+    .wp-container-core-group-is-layout-8.wp-container-core-group-is-layout-8 .wp-block-group, .wp-container-core-group-is-layout-13.wp-container-core-group-is-layout-13 .wp-block-group, .wp-container-core-group-is-layout-18.wp-container-core-group-is-layout-18 .wp-block-group {
+      width: calc(100% / 3);
+    }
+    .header-hb {
+      font-size: 38px;
+    }
+    .header-hb span {
+      font-size: 16px !important;
+      bottom: 5px;
+      position: relative;
+    }
+    .download_btn {
+      font-size: 14px;
+      padding: 2px;
+      min-width: 112px;}
+      .header-main .img-fluid {
+        width: 70px;
+      }
+      .header-hb {
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+        bottom: 0;
+        font-size: 52px;
+      }
+      .header-main {
+        position: relative;
+        padding-bottom: 100px;
+      }
   }
