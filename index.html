@@ -2387,7 +2387,7 @@
   font-size: 28px;
 }
 .follow-us p {
-  margin: 0;
+  margin: 0;font-weight: 600;
 }
 .follow-us {
   display: flex;
@@ -2395,7 +2395,42 @@
   justify-content: center;
   gap: 15px;
 }
-
+.follow-us-fixed a {
+  width: 20px;
+  height: 38px;
+  font-size: 22px;
+  position: relative;
+  left: -10px;
+}
+.follow-us-fixed p {
+  transform: rotate(90deg);
+  position: relative;
+  top: -56px;
+  width: 50px;
+  white-space: nowrap;
+  left: -7px;
+  font-size: 17px !important;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.follow-us-fixed p, .follow-us-fixed a {
+    color: #fff !important;
+}
+.follow-us-fixed {
+    position: fixed;
+    flex-direction: column;
+    flex-wrap: wrap;
+    z-index: 99;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #000;
+    box-shadow: 0px 0px 10px #171715;
+    border-radius: 12px 0 0 12px;
+    padding: 82px 10px 10px 10px;
+    width: 48px;
+    gap: 0;
+}
 @media(max-width: 767px) {
     .wp-block-group.alignfull.has-text-color.has-background.has-link-color.wp-elements-b6292a6115c88f7bebaff79f8ae443be.is-layout-constrained.wp-container-core-group-is-layout-39.wp-block-group-is-layout-constrained {
   padding-left: 15px !important;
@@ -3634,6 +3669,14 @@
                         </div>
 
                     <div class="follow-us">
+                        <p>Follow us</p>
+                        <a target="_blank" href="https://www.facebook.com/profile.php?id=61563579452621&mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/happyace.casino1?igsh=eXR5bmZnMDNxdnVp&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/happy-ace-casino-happy-ace-casino-app-646ba126b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a target="_blank" href="https://t.me/happyacecasino_official"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+
+                    <div class="follow-us follow-us-fixed">
                         <p>Follow us</p>
                         <a target="_blank" href="https://www.facebook.com/profile.php?id=61563579452621&mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
                         <a target="_blank" href="https://www.instagram.com/happyace.casino1?igsh=eXR5bmZnMDNxdnVp&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
